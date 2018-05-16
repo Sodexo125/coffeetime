@@ -1,0 +1,52 @@
+/*!
+Theme Name:TM7200
+Template Theme URI: http://www.srp.ucr.ac.cr/
+Author:Grupo TM7200 - III 2018
+Author URI: hhttp://www.srp.ucr.ac.cr/
+Description: Tema del curso Desarrollo Rápido de Aplicaciones.
+Version: 1.0
+License: GNU General Public License V2
+*/
+
+body{     
+    margin: 0;
+    padding: 0;
+    background: rgb(239, 239, 240); 
+    font-family: Arial, Helvetica, sans-serif;
+    color:#333;
+    font-size: 18px;
+    .nav-logo{
+        width: 180px;
+        height: auto;
+    }
+    .content{
+        .slider{
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .slide{
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            float: left;
+            position: absolute;
+        }
+    }
+
+    footer{
+        background:green;
+        color: #eee;
+    }
+
+
+
+    .color-prueba{
+        background: red;
+        color: green;
+    }
+
+}
